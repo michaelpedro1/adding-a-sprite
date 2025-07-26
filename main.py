@@ -55,6 +55,11 @@ sp2.rect.x = random.randint(0, 480)
 sp2.rect.y = random.randint(0, 370)
 all_sprites_list.add(sp2)
 
+sp3=Sprite(30,40,YELLOW)
+sp3.rect.x = random.randint(0, 480)
+sp3.rect.y = random.randint(0, 370)
+all_sprites_list.add(sp3)
+
 screen = pygame.display.set_mode((500, 400))
 pygame.display.set_captio('Randomise GAME')
 bg_color = BLUE
